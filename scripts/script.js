@@ -19,7 +19,7 @@
     function createSnowflakes() {
         updateWindowSize(); // Обновление размеров перед созданием снежинок
         for (let i = 0; i < count; i++) {
-            const imageSrc = "/tpl/img/" + snowflakeImages[Math.floor(Math.random() * snowflakeImages.length)];
+            const imageSrc = "/img/" + snowflakeImages[Math.floor(Math.random() * snowflakeImages.length)];
             const snowflake = document.createElement('img');
 
             snowflake.style.zIndex = '50';
